@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="@drawable/dialog_bg"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColorHint="#99B3CC"
+        android:layout_weight="8"
+        >
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/patId"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bubble"
+        android:hint="Patient ID"
+        android:textColorHint="#99B3CC"
+        android:textColor="#99B3CC"
+        />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <ImageButton
+        android:id="@+id/patientStartRecording"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_weight="2"
+        android:background="@color/space_transparent"
+        android:padding="7dp"
+        android:src="@drawable/ic_mic_black_24dp"
+        android:text="start" />
+        <ImageButton
+            android:id="@+id/patStopRecording"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@color/space_transparent"
+            android:padding="7dp"
+            android:src="@drawable/ic_mic_off_black_24dp"
+            android:text="start" />
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/cancelDialog"
+        android:textColor="#99B3CC"
+        android:background="@color/space_transparent"
+        android:layout_gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="8dp"
+        android:text="CANCEL"
+
+        />
+
+</LinearLayout>
