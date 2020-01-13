@@ -20,3 +20,19 @@ Features:
     ii) Voice Input.
 6. Confirmation of Prescription via Doctor's Signature/Fingerprint.
 7. HIPAA compliant database.
+
+
+<p> Login Page </p>                                           
+<img src="Screenshots/Doctor_Login.jpg" width="200" >
+
+
+<p> Voice Input Dialog Box </p>
+<img src="Screenshots/Voice_Input.jpg" width="200" >
+
+
+<p> Edit Each Entity/Prescription Item before Confirmation </p>
+<img src="Screenshots/Edit_Entity_Before_COnfirmation.jpg" width="200" >
+
+
+<p> Final Prescription Generated </p>
+<img src="Screenshots/Final_Prescription_Generated.jpg" width="200" >
