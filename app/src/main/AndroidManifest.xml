@@ -13,10 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".DoctorLoginActivity"></activity>
+        <activity android:name=".PrescriptionActivity"></activity>
+        <activity android:name=".DoctorLoginActivity" />
         <activity android:name=".DashBoardActivity" />
         <activity android:name=".DoctorSignUpActivity" />
         <activity android:name=".MainActivityKotlin" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

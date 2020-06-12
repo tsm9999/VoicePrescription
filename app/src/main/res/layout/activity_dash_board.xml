@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#BDCFCF"
+    android:background="@drawable/grad2"
     tools:context=".DashBoardActivity">
     <TextView
         android:id="@+id/dashBoardText"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="DASHBOARD "
+        android:text=" "
+        android:textColor="@color/white"
         android:textSize="30dp"
         android:gravity="center"/>
     <com.luseen.spacenavigation.SpaceNavigationView

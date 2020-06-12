@@ -1,14 +1,15 @@
 package com.example.tanush.sih_20;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
     TextView stt;
-
+    String str;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +18,10 @@ public class MainActivity extends AppCompatActivity {
 
         stt=findViewById(R.id.stt);
         Intent intent = getIntent();
-        String str = intent.getStringExtra("message");
+        str = intent.getStringExtra("mess");
+        Log.e("msg:", str.toString());
         stt.setText(str);
     }
+
+
 }

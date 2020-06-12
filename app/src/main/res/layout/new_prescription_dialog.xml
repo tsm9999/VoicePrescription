@@ -29,8 +29,9 @@
         android:layout_height="wrap_content"
         android:background="@drawable/bubble"
         android:hint="Patient ID"
+        android:inputType="phone"
         android:textColorHint="#99B3CC"
-        android:textColor="#99B3CC"
+        android:textColor="@color/colorPrimary"
         />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -45,22 +46,13 @@
         android:padding="7dp"
         android:src="@drawable/ic_mic_black_24dp"
         android:text="start" />
-        <ImageButton
-            android:id="@+id/patStopRecording"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_weight="2"
-            android:background="@color/space_transparent"
-            android:padding="7dp"
-            android:src="@drawable/ic_mic_off_black_24dp"
-            android:text="start" />
+
     </LinearLayout>
 
     <Button
 
         android:id="@+id/cancelDialog"
-        android:textColor="#99B3CC"
+        android:textColor="@color/colorPrimary"
         android:background="@color/space_transparent"
         android:layout_gravity="right"
         android:layout_width="wrap_content"
